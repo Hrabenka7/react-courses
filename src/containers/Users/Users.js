@@ -4,7 +4,7 @@ class Users extends Component {
     render () {
         return (
             <div>
-                <h1>The Users Page</h1>
+                <h2>The Users Page</h2>
             </div>
         );
     }

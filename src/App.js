@@ -16,8 +16,8 @@ class App extends Component {
           <div className="container-fluid">
             <ul className="nav navbar-nav">
               <li className="active"><Link to="/">Home</Link></li>
-              <li><Link to="/users">Users</Link></li>
               <li><Link to="/courses">Courses</Link></li>
+              <li><Link to="/users">Users</Link></li>
             </ul>
           </div>
         </nav>

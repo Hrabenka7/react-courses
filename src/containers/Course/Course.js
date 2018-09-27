@@ -29,7 +29,7 @@ class Course extends Component {
     render () {
         return (
             <div>
-                <h1>{this.state.title}</h1>
+                <h3>{this.state.title}</h3>
                 <p>You selected the Course with ID: {this.props.match.params.id}</p>  {/*params.ID = must match the name in Route :id*/}
             </div>
         );
